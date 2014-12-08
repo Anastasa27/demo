@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Amex Demo</title>
+  <link rel="stylesheet" type="text/css" href="http://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
+  <link rel="stylesheet" href="stylesheets/style.css">
+    <link rel="stylesheet" href="stylesheets/responsive.css">
+    <script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+</head>
+<body>
+
+  <div id="wrapper">
+      <header>Notifications</header>
+        <hr>
+        <section id="account-info">
+          <ul>
+            <li id="add-money">
+              <div id="innerWrapper">
+                <span class="icon">
+                  <img src="images/alert_triangle.png" />
+                </span>
+                <span class="msg">
+                  <h1>Negative Balance</h1>
+                  <br />
+                  <p>Add money to your account as soon as possible
+                  </p>
+                </span>
+                <span class="act first">
+                  <button id="add">Add Money</button>
+                </span>
+              </div>
+            </li>
+             <li id="middle">
+              <div id="innerWrapper">
+                <span class="icon">
+                  <img src="images/link_funding.png" />
+                </span>
+                <span class="msg">
+                  <h1>Verify Bank Account</h1>
+                  <br />
+                  <p>Check your bank account for 2 small deposits and make note of the amounts.
+                  </p>
+                </span>
+                <span class="act second">
+                  <button id="verify">Verify Bank</button>
+                </span>
+              </div>
+            </li>
+             <li class="main">
+              <div id="innerWrapper">
+                <span class="icon">
+                  <img src="images/verify_email.png" />
+                </span>
+                <span class="msg">
+                  <h1>Verify Your Email</h1>
+                  <br />
+                  <p>Please click the verification link we sent to [EMAIL ADDRESS]
+                    <ul class="innerList">
+                    <li>Don't forget to check your spam folder.
+                    </li>
+                    <li>The verification link expires after 7 days.
+                    </li>
+                  </ul>
+                  </p>
+                </span>
+              </div>
+            </li>
+          </ul>
+        </section>
+        <header>Active Transactions</header>
+        <hr>
+        <section id="active-transactions">
+        <ul>
+            <li class="transactions">
+              <div id="innerWrapper">
+                <span class="icon">
+                  <img src="" />
+                </span>
+                <span class="msg">
+                  <h1 class="date">Negative Balance</h1>
+                  <p class="request-detail">Money Request Received From Scott Smith <img src="images/caret-right-1.png" />
+                  </p>
+                </span>
+                <span class="expiration">
+                  <p class="dueDate">EXPIRES IN 6 DAYS</p>
+                  <p class="amount">-$32.96</p>
+                  <p class="small">Change Amount</p>
+                </span>
+                <p class="msg-text"><img src="images/p2p-msg-bubble.png" class="bubble"/>Scott:Hey, pay me back!</p>
+                <span class="transBtns"><button class="decline">Decline</button><button>Send</button></span>
+              </div>
+            </li>
+          </ul>
+        </section>
+         <header>Completed Transactions</header>
+        <hr>
+        <section id="completed-transactions">
+        <ul>
+            <li class="comp-trans">
+              <div id="innerWrapper">
+                <span class="msg">
+                  <h1 class="date">Aug 25, 2012</h1>
+                  <p class="request-detail">Store purchase UNIQLO<img src="images/caret-right-1.png" />
+                  </p>
+                </span>
+                <span class="expiration">
+                  <p class="amount">-$50.00</p>
+                </span>
+              </div>
+            </li>
+            <li class="comp-trans">
+              <div id="innerWrapper">
+                <span class="msg">
+                  <h1 class="date">Aug 25, 2012</h1>
+                  <p class="request-detail">ACH Load<img src="images/caret-right-1.png" />
+                  </p>
+                </span>
+                <span class="expiration">
+                  <p class="amount green">$50.00</p>
+                </span>
+              </div>
+            </li>
+          </ul>
+          <p id="view-all">View All Transactions</p>
+        </section>
+
+  </div>
+    <script type="text/javascript" src="javascripts/main.js"></script>
+  </body>
+</html>
+
+

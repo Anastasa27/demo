@@ -1,0 +1,217 @@
+
+
+  body {
+    font-family: Arial;
+    color:#555;
+  }
+  #wrapper {
+    width: 90%;
+    margin: 0 auto;
+  }
+  header{
+  padding:10px 0px;
+  }
+
+  hr {
+    margin: 0 auto;
+    display: block;
+    width: 100%;
+    border: 1px lightgray solid;
+  }
+  #account-info {
+    padding-top: 15px;
+  }
+
+  li.main {
+    list-style: none;
+    background-color: #c0d6e4;
+    padding: 18px;
+    padding-bottom: 25px;
+    border:#3b5998 1px solid;
+  }
+
+  #add-money {
+    list-style: none;
+    background-color: #c0d6e4;
+    padding: 18px;
+    padding-bottom: 25px;
+    border:#3b5998 1px solid;
+  }
+
+  #middle {
+    list-style: none;
+    background-color: #c0d6e4;
+    padding: 18px;
+    padding-bottom: 25px;
+    border-left:1px #3b5998 solid;
+    border-right:1px #3b5998 solid;
+    border-top:none;
+    border-bottom: none;
+  }
+  #innerWrapper span{
+    display: inline-block;
+    vertical-align: top;
+  }
+  h1{
+    font-weight: bold;
+  }
+  .icon{
+    padding:0px 25px 5px 0;
+  }
+  /* need to create a query for the float below certain window size */
+  .act{
+    /*float: right;*/
+    float: right;
+    padding-bottom:5px;
+  }
+
+  .act button{
+        width: 150px;
+        height: 45px;
+        -webkit-border-radius: 4px;
+        -moz-border-radius: 4px;
+        border-radius: 4px;
+        font-size:18px;
+        text-decoration:none;
+        font-weight:bold;
+        color: #FFFFFF;
+ background-image: -webkit-linear-gradient(top, #01BBED, #098BB6);
+ background-image: -moz-linear-gradient(top, #01BBED, #098BB6);
+ background-image: -ms-linear-gradient(top, #01BBED, #098BB6);
+ background-image: linear-gradient(to bottom, #01BBED, #098BB6);filter:progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#a7cfdf, endColorstr=#098BB6);
+ padding-left: 15px;
+  }
+  .msg{
+    padding-bottom:5px;
+    line-height: 1em;
+    width: 60%;
+    font-size: 14px;
+  }
+ul.innerList{
+  padding-top: 5px;
+  list-style: disc;
+  padding-left: 15px;
+}
+ul.innerList li{
+  line-height: 1.3em;
+}
+/*li.transactions{
+    list-style: none;
+    padding: 15px;
+    border:#3b5998 1px solid;
+
+}*/
+
+li.transactions{
+    list-style: none;
+    padding: 15px;
+    padding-bottom: 25px;
+    border:#0489B1 1px solid;
+    height:145px;
+
+}
+.date{
+  color:gray;
+  font-size: 16px;
+}
+
+p.request-detail{
+  line-height: 1.7em;
+  font-size: 18px;
+}
+.msg-text{
+    background-color: #e5eef4;
+    line-height: 2em;
+    border-radius: 3px;
+    margin: 5px 0px;
+}
+.bubble{
+  vertical-align: middle;
+  padding: 10px;
+}
+
+.transBtns {
+  float:right;
+}
+
+.transBtns button{
+        width: 150px;
+        height: 45px;
+        -webkit-border-radius: 4px;
+        -moz-border-radius: 4px;
+        border-radius: 4px;
+        font-size:18px;
+        text-decoration:none;
+        font-weight:bold;
+        color: #FFFFFF;
+ background-image: -webkit-linear-gradient(top, #01BBED, #098BB6);
+ background-image: -moz-linear-gradient(top, #01BBED, #098BB6);
+ background-image: -ms-linear-gradient(top, #01BBED, #098BB6);
+ background-image: linear-gradient(to bottom, #01BBED, #098BB6);filter:progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#a7cfdf, endColorstr=#098BB6);
+ padding-left: 15px;
+  }
+
+.decline {
+margin-right: 10px;
+border:1px solid #CACACA;
+-webkit-border-radius: 3px;
+-moz-border-radius: 3px;
+border-radius: 3px;
+font-size:12px;
+padding: 10px 10px 10px 10px;
+text-decoration:none;
+display:inline-block;text-shadow: -1px -1px 0 rgba(0,0,0,0.3);
+font-weight:bold;
+color: #FFFFFF;
+ background-color: #E6E6E6; background-image: -webkit-gradient(linear, left top, left bottom, from(#E6E6E6), to(#CCCCCC));
+ background-image: -webkit-linear-gradient(top, #E6E6E6, #CCCCCC);
+ background-image: -moz-linear-gradient(top, #E6E6E6, #CCCCCC);
+ background-image: -ms-linear-gradient(top, #E6E6E6, #CCCCCC);
+ background-image: -o-linear-gradient(top, #E6E6E6, #CCCCCC);
+ background-image: linear-gradient(to bottom, #E6E6E6, #CCCCCC);filter:progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#E6E6E6, endColorstr=#CCCCCC);
+padding-left: 15px;
+  }
+
+  #active-transactions, #completed-transactions{
+    padding-top: 15px;
+  }
+
+  li.comp-trans{
+    list-style: none;
+    padding: 15px;
+    padding-bottom: 25px;
+    border: #0489B1 1px solid;
+  }
+
+
+  .expiration {
+    float:right;
+  }
+
+.dueDate {
+  font-size:12px;
+}
+
+.small {
+  font-size:12px;
+  color:blue;
+}
+
+.amount {
+  font-size:16px;
+  line-height:1.5em;
+  color:purple;
+}
+
+.green {
+  color:green;
+}
+
+#view-all {
+  margin-bottom: 10px;
+  line-height: 2em;
+  float:right;
+  font-size: 16px;
+  color:blue;
+}
+
